@@ -3,7 +3,7 @@ set -e
 
 IMAGE_NAME=nginx-welcome
 CONTAINER_NAME=nginx-welcome-container
-PORT=8080
+PORT=8090
 
 echo "Stopping old container (if any)..."
 docker rm -f $CONTAINER_NAME || true
